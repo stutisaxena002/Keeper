@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingLeft="60dp"
+    android:paddingTop="140dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/loginbg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Email"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:id="@+id/loginEmail"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Password"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:id="@+id/loginPassword"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Proceed"
+        android:gravity="center" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password "
+            android:textAlignment="center"
+            android:id="@+id/forgotPassword"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/loginSignup"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

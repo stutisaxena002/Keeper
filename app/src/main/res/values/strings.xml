@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Keeper</string>
+    <string name="in_hand">In Hand</string>
+    <string name="in_handb">In Hand :</string>
+    <string name="in_digital">In Digital :</string>
+    <string name="total">Total :</string>
+</resources>
